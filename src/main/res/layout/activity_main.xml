@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AvengersActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_gravity="center"
+        android:text="Hello World !"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:textColor="#311b92"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pretty productive in COVID-19"
+        android:textColor="#673ab7"
+        android:layout_marginLeft="14dp"
+        android:layout_gravity="center"
+        android:textSize="17sp"
+        android:padding="8dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Click here!"
+        android:background="#3f51b5"
+        android:textColor="#e1f5fe"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password"
+        android:padding="20dp"
+        android:inputType="numberPassword"/>
+
+
+
+
+</LinearLayout>

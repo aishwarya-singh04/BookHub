@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My App1"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/imgProfile"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="myapp@gmail.com"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/imgProfile"
+            android:layout_below="@id/txtName"
+            android:textColor="#000000"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:id="@+id/txtNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 7393090868"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/imgProfile"
+            android:layout_below="@id/txtEmail"
+            android:textColor="#000000"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/ic_launcher_background"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/txtName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My App2"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/imgProfile2"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/txtEmail2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="myapp@gmail.com"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imgProfile2"
+                android:layout_below="@id/txtName2"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/txtNumber2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 7393090868"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imgProfile2"
+                android:layout_below="@id/txtEmail2"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+
+            <ImageView
+                android:id="@+id/imgProfile2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_launcher_background"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/txtName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My App3"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/imgProfile3"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/txtEmail3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="myapp@gmail.com"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imgProfile3"
+                android:layout_below="@id/txtName3"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/txtNumber3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 7393090868"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imgProfile3"
+                android:layout_below="@id/txtEmail3"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+
+            <ImageView
+                android:id="@+id/imgProfile3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_launcher_background"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtName4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/imgProfile4"
+                android:text="My App4"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtEmail4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtName4"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/imgProfile4"
+                android:text="myapp@gmail.com"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtNumber4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtEmail4"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/imgProfile4"
+                android:text="+91 7393090868"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imgProfile4"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_launcher_background" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/txtName5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My App5"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/imgProfile5"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/txtEmail5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="myapp@gmail.com"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imgProfile5"
+                android:layout_below="@id/txtName5"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/txtNumber5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 7393090868"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imgProfile5"
+                android:layout_below="@id/txtEmail5"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+
+            <ImageView
+                android:id="@+id/imgProfile5"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_launcher_background"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

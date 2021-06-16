@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#03DAC9</color>
+    <color name="myColor">#D81B60</color>
+    <color name="newColor">#008577</color>
+    <color name="wowColor">#ffe600</color>
+</resources>
